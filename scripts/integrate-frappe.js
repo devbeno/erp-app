@@ -1,6 +1,6 @@
 const sh = require('shelljs');
 const upath = require('upath');
-const appPath = upath.resolve(upath.dirname(__filename), '../erp-app');
+const appPath = upath.resolve(upath.dirname(__filename), '../erp_app');
 
 sh.mv('dist/css', `${appPath}/public/bootstrap-5/`)
 sh.mv('dist/js', `${appPath}/public/bootstrap-5/`)

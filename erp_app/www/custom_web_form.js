@@ -21,7 +21,7 @@ frappe.ready(function() {
 		console.log( first_name, ' | ', last_name, ' | ', email, ' | ', phone, ' | ', company, ' | ', job_title, ' | ', comments );
 
 		frappe.call({
-			method: 'erp-app.www.custom_web_form.get_response',
+			method: 'erp_app.www.custom_web_form.get_response',
 			args: {
 				first_name:		first_name,
 				last_name:		last_name,

@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 from . import __version__ as app_version
 
-app_name = "erp-app"
+app_name = "erp_app"
 app_title = "Frappe Apps"
 app_publisher = "Yuan-Yao Lou"
 app_description = "Sample Applications Development"
@@ -15,15 +15,15 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/erp-app/css/erp-app.css"
-# app_include_js = "/assets/erp-app/js/erp-app.js"
+# app_include_css = "/assets/erp_app/css/erp_app.css"
+# app_include_js = "/assets/erp_app/js/erp_app.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/erp-app/css/erp-app.css"
-# web_include_js = "/assets/erp-app/js/erp-app.js"
+# web_include_css = "/assets/erp_app/css/erp_app.css"
+# web_include_js = "/assets/erp_app/js/erp_app.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "erp-app/public/scss/website"
+# website_theme_scss = "erp_app/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -58,14 +58,14 @@ app_license = "MIT"
 # Installation
 # ------------
 
-# before_install = "erp-app.install.before_install"
-# after_install = "erp-app.install.after_install"
+# before_install = "erp_app.install.before_install"
+# after_install = "erp_app.install.after_install"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "erp-app.notifications.get_notification_config"
+# notification_config = "erp_app.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -104,39 +104,39 @@ app_license = "MIT"
 
 # scheduler_events = {
 # 	"all": [
-# 		"erp-app.tasks.all"
+# 		"erp_app.tasks.all"
 # 	],
 # 	"daily": [
-# 		"erp-app.tasks.daily"
+# 		"erp_app.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"erp-app.tasks.hourly"
+# 		"erp_app.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"erp-app.tasks.weekly"
+# 		"erp_app.tasks.weekly"
 # 	]
 # 	"monthly": [
-# 		"erp-app.tasks.monthly"
+# 		"erp_app.tasks.monthly"
 # 	]
 # }
 
 # Testing
 # -------
 
-# before_tests = "erp-app.install.before_tests"
+# before_tests = "erp_app.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "erp-app.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "erp_app.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "erp-app.task.get_dashboard_data"
+# 	"Task": "erp_app.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -172,6 +172,6 @@ user_data_fields = [
 # --------------------------------
 
 # auth_hooks = [
-# 	"erp-app.auth.validate"
+# 	"erp_app.auth.validate"
 # ]
 

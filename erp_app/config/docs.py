@@ -2,8 +2,8 @@
 Configuration for docs
 """
 
-# source_link = "https://github.com/[org_name]/erp-app"
-# docs_base_url = "https://[org_name].github.io/erp-app"
+# source_link = "https://github.com/[org_name]/erp_app"
+# docs_base_url = "https://[org_name].github.io/erp_app"
 # headline = "App that does everything"
 # sub_heading = "Yes, you got that right the first time, everything"
 

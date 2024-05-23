@@ -4,15 +4,15 @@ include *.json
 include *.md
 include *.py
 include *.txt
-recursive-include erp-app *.css
-recursive-include erp-app *.csv
-recursive-include erp-app *.html
-recursive-include erp-app *.ico
-recursive-include erp-app *.js
-recursive-include erp-app *.json
-recursive-include erp-app *.md
-recursive-include erp-app *.png
-recursive-include erp-app *.py
-recursive-include erp-app *.svg
-recursive-include erp-app *.txt
-recursive-exclude erp-app *.pyc
+recursive-include erp_app *.css
+recursive-include erp_app *.csv
+recursive-include erp_app *.html
+recursive-include erp_app *.ico
+recursive-include erp_app *.js
+recursive-include erp_app *.json
+recursive-include erp_app *.md
+recursive-include erp_app *.png
+recursive-include erp_app *.py
+recursive-include erp_app *.svg
+recursive-include erp_app *.txt
+recursive-exclude erp_app *.pyc
